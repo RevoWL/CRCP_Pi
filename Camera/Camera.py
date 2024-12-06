@@ -6,8 +6,8 @@ import pygame
 from pygame.locals import *
 
 # Set camera resolution
-width = 3280
-height = 2464
+width = 1920
+height = 1080
 
 # Button Size
 button = 100
