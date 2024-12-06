@@ -32,13 +32,13 @@ windowSurfaceObj = pygame.display.set_mode((width, height), pygame.FULLSCREEN)
 
 def on_press(key):
     global end, overlay
-    if key == pygame.K_ESCAPE:
+    if key == 27:
         camera.remove_overlay(overlay)
         camera.close()
         pygame.display.quit()
         end = 1
         exit()
-    elif key == pygame.K_RETURN:
+    elif key == 13:
         camera.capture("test.png")
 
 while end == 0 :
