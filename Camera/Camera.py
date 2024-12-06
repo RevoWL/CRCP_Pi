@@ -3,7 +3,7 @@ import picamera
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import pygame
-from pygame.local import *
+from pygame.locals import *
 
 # Set camera resolution
 width = 1920
