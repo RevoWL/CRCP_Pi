@@ -35,10 +35,10 @@ def on_press(key):
     if key == pygame.K_ESCAPE:
         camera.remove_overlay(overlay)
         camera.close()
-        pygame.disply.quit()
+        pygame.display.quit()
         end = 1
         exit()
-    elif key == pygame.K_ENTER:
+    elif key == pygame.K_RETURN:
         camera.capture("test.png")
 
 while end == 0 :
